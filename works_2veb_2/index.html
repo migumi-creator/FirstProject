@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Опросник для обладателей магических животных</title>
+  </head>
+  <body>
+    <h1>Опросник для обладателей магических животных</h1>
+    <form method="post">
+      <label for="pet-name">Кличка питомца:</label>
+      <input type="text" id="pet-name" name="pet-name" required>
+      <br/>
+      <label for="pet-breed">Имя и контакты владельца</label>
+    <input type="text" id="pet-breed" name="pet-breed">
+    <br/>
+    <label for="pet-type">Порода питомца</label>
+      <select id="pet-type" name="pet-type" required>
+        <option value="">Выберите</option>
+        <option value="dog">Собака</option>
+        <option value="cat">Кошка</option>
+        <option value="bird">Птица</option>
+        <option value="fish">Рыба</option>
+        <option value="other">Другое</option>
+      </select>
+    <br>Чем питается:
+      <br><input type="checkbox" name="space" value="1" checked="checked"/>
+      сухой корм<br/>
+      <input type="checkbox" name="space" value="2"/>
+      влажный корм<br/>
+      <input type="checkbox" name="space"value="3"/>
+      натуральный корм
+      <label>
+      <br>Самец или самка</label>
+    <br><input type="radio" id="pet-gender-male" name="pet-gender" value="male" required>
+    <label for="pet-gender-male">Самец</label>
+    <input type="radio" id="pet-gender-female" name="pet-gender" value="female" required>
+    <label for="pet-gender-female">Самка</label>
+    <br/>
+    <label for="pet-vet">
+    Комментарий владельца:</label>
+      <br><textarea name="comment" cols="40" rows="3"></textarea>
+      </label>
+      <br><img src="https://m.mirkorma.ru/upload/medialibrary/951/951a1da50e746dbdcb5a733e8e977185.jpg" alt="Фото питомца">
+    <br><input type="submit" value="Сохранить">
+  </form>
+</body>
+</html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>

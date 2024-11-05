@@ -1,0 +1,132 @@
+/* * {
+outline: 1px solid red;
+} */
+
+h2 {
+color: rgb(251, 255, 0);
+font-size: 25px;
+}
+
+h3 {
+    color: rgb(255, 166, 33);
+    font-size: 25px;
+    }
+
+    <head>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100.700;1,100.700&display=swap" rel="stylesheet">
+<style>
+	h2 {
+		font-family: 'Roboto', sans-serif;
+	}
+</style>
+</head>
+
+    @font-face {
+        src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">); /* Свойство src содержит путь к файлу шрифта */
+    font-family: 'Josefin' }
+        
+    h2 {
+        font-family: 'Josefin';
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    div {
+        background-color: #dbff0f;
+        /* Отступ по 55 пикселей слева и справа */
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+.pseudo-element {
+    background: url();
+    width: 50%;
+    min-height: 600px;
+    position: relative;
+    z-index: 0;
+}
+
+.pseudo-element___title {
+    color: beige;
+    font-size: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.pseudo-element::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(255, 132, 132);
+}
+
+h3.compoud-title {
+    color:rgb(25, 0, 255)
+}
+
+.container {
+    border: 1px solid rgb(255, 83, 135);
+    border-radius: 20px;
+}
+.container2 {
+    border: 1px solid rgb(255, 251, 0);
+    border-radius: 20px;
+}
+
+.title {
+    color:rgb(255, 93, 160)
+}
+
+.link {
+    text-decoration: none;
+}
+
+#wrapper {
+  border: 1px solid black;  
+}
+
+#subtitle {
+    color: rgb(255, 174, 0);
+    font-size: 12px;
+}
+
+#link {
+    color: green;
+}
+
+.pseudo-classes:hover {
+background-color: rgb(76, 174, 255);
+}
+
+header a {
+    text-decoration: green wavy underline;
+}
+.footer > div > a {
+    text-decoration: aquamarine wavy underline;
+}
+h2 + a {
+    color: red;
+}
+
+a ~ h2 {
+    color: blueviolet;
+}
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBoldItalic", sans-serif;
+  font-size: 128px;
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+}
